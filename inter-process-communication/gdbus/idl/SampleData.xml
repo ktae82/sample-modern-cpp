@@ -1,0 +1,18 @@
+<node>
+    <interface name="sample.SampleData">
+        <method name="connect">
+        </method>
+        <method name="getData">
+            <arg type="i" name="index" direction="in"/>
+            <arg type="s" name="data" direction="out"/>
+        </method>
+        <method name="setData">
+            <arg type="i" name="index" direction="in"/>
+            <arg type="s" name="data" direction="in"/>
+        </method>
+        <signal name="onDataChanged">
+            <arg type="i" name="index"/>
+            <arg type="s" name="data"/>
+        </signal>
+    </interface>
+</node>

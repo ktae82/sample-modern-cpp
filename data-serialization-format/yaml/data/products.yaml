@@ -1,0 +1,9 @@
+products: 
+  - name: "AAA"
+    barcode: "123456"
+  - name: "BBB"
+    barcode: "123457"
+  - name: "CCC"
+    barcode: "123458"
+  - name: "DDD"
+    barcode: "123459"
