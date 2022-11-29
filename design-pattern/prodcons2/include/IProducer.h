@@ -5,6 +5,7 @@
 
 class IProducer {
 public:
+  virtual ~IProducer() = default;
   virtual void start() = 0;
   virtual void produceData(Data &data) = 0;
   virtual void finish() = 0;

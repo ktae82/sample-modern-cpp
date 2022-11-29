@@ -5,6 +5,7 @@
 
 class IConsumer {
 public:
+  virtual ~IConsumer() = default;
   virtual void start() = 0;
   virtual void processData(const Data &data) = 0;
   virtual void finish() = 0;

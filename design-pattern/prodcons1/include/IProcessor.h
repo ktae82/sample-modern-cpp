@@ -5,6 +5,7 @@
 
 class IProcessor {
 public:
+  virtual ~IProcessor() = default;
   virtual void process(const Data &data) = 0;
 };
 

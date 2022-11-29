@@ -5,8 +5,8 @@
 
 class Command {
 public:
+  virtual ~Command() = default;
   virtual void execute(void) = 0;
-  virtual ~Command(void){};
 };
 
 class CommandAAA : public Command {
