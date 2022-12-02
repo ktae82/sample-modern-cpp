@@ -18,3 +18,9 @@
   
   * Standard Cpp
     - async
+    - byte
+    - map
+    - optional
+    - pair
+    - tuple
+    - virtual-test
