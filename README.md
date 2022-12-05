@@ -24,3 +24,4 @@
     - pair
     - tuple
     - virtual-test
+    - lambda
