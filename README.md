@@ -19,9 +19,10 @@
   * Standard Cpp
     - async
     - byte
+    - lambda
     - map
     - optional
     - pair
+    - set
     - tuple
     - virtual-test
-    - lambda
