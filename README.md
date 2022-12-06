@@ -17,6 +17,7 @@
     - gdbus
   
   * Standard Cpp
+    - arguments
     - async
     - byte
     - lambda
