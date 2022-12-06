@@ -24,6 +24,9 @@ void toCharPtrVector(std::vector<std::string> &in,
   std::transform(in.begin(), in.end(), out.begin(),
                  [](std::string &str) { return str.c_str(); });
 
+  // std::transform(in.begin(), in.end(), out.begin(),
+  //                std::mem_fun_ref(&std::string::c_str));
+
   // print
   for (const auto &elem : in) {
     std::cout << elem << " " << std::flush;
