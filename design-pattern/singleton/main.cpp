@@ -6,8 +6,6 @@ private:
   virtual ~MeyersSingleton() {
     std::cout << "MeyersSingleton destructor" << std::endl;
   }
-  MeyersSingleton(const MeyersSingleton &) = delete;
-  MeyersSingleton &operator=(const MeyersSingleton &) = delete;
 
 public:
   static MeyersSingleton &getInstance() {
@@ -18,6 +16,12 @@ public:
   void DoSomething(const std::string_view msg) {
     std::cout << "MeyersSingleton DoSomething() msg:" << msg << std::endl;
   }
+
+public:
+  MeyersSingleton(const MeyersSingleton &) = delete;
+  MeyersSingleton(MeyersSingleton &&) = delete;
+  MeyersSingleton &operator=(const MeyersSingleton &) = delete;
+  MeyersSingleton &operator=(MeyersSingleton &&) = delete;
 };
 
 int main() {
