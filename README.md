@@ -8,7 +8,9 @@
     - yaml-cpp
   
   * Design Pattern
+    - command
     - observer
+    - pimpl (Pointer to implementation)
     - producer/consumer
     - singleton
     - strategy
